@@ -13,7 +13,7 @@ locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
 #Índia: en_IN.UTF-8
 
 menu = """
-[1] DepositarHASJKDHSAKJHDSKJAHADSKSADDSAH DHAJDKAJSHKASHKDAHKHJDSAKH SAKJDHSAKDSDAJSHDSAHKJDSHJKDKHJS H KSAHJASKJHDSKJKDASKHJDASD
+[1] Depositar
 [2] Sacar
 [3] Extrato
 [4] Sair
@@ -51,7 +51,7 @@ while True:
                 print("Saldo insuficiente.")
             elif valor > limite:
                 print("Saque excede o limite.")
-            elif numero_saques == 3:
+            elif numero_saques == 10:
                 print("Número máximo de saques atingido.")
             elif valor > 0:
                 saldo -= valor
